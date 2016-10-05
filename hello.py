@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	return "index page"
+	return "changed index page"
 
 
 
